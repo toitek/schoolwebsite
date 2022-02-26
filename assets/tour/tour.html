@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+        <!--========== CSS ==========-->
+        <link rel="stylesheet" href="tour.css">
+
+        <title>SchoolTour</title>
+    </head>
+    <body>
+        <!--========== HEADER ==========-->
+        <header class="header">
+            <nav class="nav bd-container">
+               <div class="nav__menu" id="nav-menu">
+                    <ul class="nav__list">
+                        <li class="nav__item"><a href="../../index1.html" class="nav__link">Home</a></li>
+                       
+                    </ul>
+                </div>
+                
+                <div class="nav__toggle" id="nav-toggle">
+                    <i class='bx bx-menu'></i>
+                </div>
+            </nav>
+        </header>
+
+        <!--========== MAIN ==========-->
+      
+        
+                    
+                    <section class="tour swiper-slide">
+                        <img src="dom.jpg" alt="" class="tour__bg">
+
+                        <div class="tour__container bd-container">
+                            <div class="tour__data">
+                                <h2 class="tour__subtitle">Boarding</h2>
+                                <h1 class="tour__title">DORMS</h1>
+                                
+                                
+                            </div>
+
+                            <div class="tour__video">
+                                <div class="tour__video-content">
+                                    <i class='bx bx-play-circle tour__video-icon'></i>
+                                </div>
+                            </div>  
+                        </div>
+                    </section>
+                    
+            
+                    <section class="tour swiper-slide">
+                        <img src="gate.jpeg" alt="" class="tour__bg">
+
+                        <div class="tour__container bd-container">
+                            <div class="tour__data">
+                                <h2 class="tour__subtitle">GATE</h2>
+                                <h1 class="tour__title">GATE</h1>
+            
+                                
+                            </div>
+
+                            <div class="tour__video">
+                                <div class="tour__video-content">
+                                    <i class='bx bx-play-circle tour__video-icon'></i>
+                                </div>
+                            </div>  
+                        </div>
+                    </section>
+
+                
+
+            <!--========== CONTROLS ==========-->
+            <div class="controls gallery-thumbs">
+                <div class="controls__container swiper-wrapper">
+                    <img src="dh.jpg" alt="" class="controls__img swiper-slide">
+                    <img src="dom.jpg" alt="" class="controls__img swiper-slide">
+                    <img src="gate.jpeg" alt="" class="controls__img swiper-slide">
+                </div>
+            </div>
+        </main>
+
+        <!--========== GSAP ==========-->
+        <script src="gsap.min.js"></script>
+
+
+        <!--========== MAIN JS ==========-->
+        <script src="tour.js"></script>
+    </body>
+</html>
